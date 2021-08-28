@@ -5,7 +5,7 @@ class LogConfig(BaseModel):
 
     LOGGER_NAME: str = "main"
     LOG_FORMAT: str = "%(levelname)s - %(asctime)s - %(message)s"
-    LOG_LEVEL: str = "INFO"
+    LOG_LEVEL: str = "DEBUG"
 
     # Logging config
     version = 1
